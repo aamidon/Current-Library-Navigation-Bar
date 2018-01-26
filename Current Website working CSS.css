@@ -1,0 +1,130 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+body {
+	padding: 0;
+	background-color: #ddd;
+}
+a:hover {
+	text-decoration: none;
+}
+#s-lg-guide-main {
+	min-height: 70vh;
+}
+
+/*tabs container*/
+#s-lg-tabs-container {
+    margin-bottom: 5px;
+}
+header.s-lib-main {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0.5em;
+}
+.top_clarklogo {
+	flex: 1;
+	padding-top: 10px;
+	border: 0px #2D4305;
+	width: 20vw;
+	height: 10vh;
+}
+.top_head {
+	display: inline;
+	flex: 5;
+}
+h2 {
+	font-family: 'Roboto Slab';
+}
+.top_head a, .top_head a:visited {
+	font-family: 'Roboto Slab';
+	font-size: 3vw;
+	display: flex;
+	/*margin-top: 25px;*/
+	justify-content: center;
+	text-align: center;
+	color: #004F42;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #aaa;
+}
+@media(min-width: 1800px) {
+	.top_head a, .top_head a:visited {
+		font-size: 50px;
+	}
+	.top_clarklogo {
+		width: 200px;
+		height: 100px;
+	}
+}
+#s-lib-public-header {
+        visibility: "hidden";
+	padding-bottom: 0;
+}
+#s-lg-guide-tabs-title-bar {
+	border: 0;
+}
+ol#s-lib-bc-list {
+	visibility="hidden";
+	padding-left: 20px;
+	margin: 5px 0 !important;
+}
+.breadcrumb {
+	visibility: "hidden"; 
+	line-height: 35px;
+}
+.s-lib-header div, h1, #s-lib-public-header-desc, #s-lib-bc {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+@media(min-width: 768px) {
+	.s-lib-header div, h1, #s-lib-public-header-desc, #s-lib-bc {
+		width: 750px;
+	}
+}
+@media(min-width: 992px) {
+	.s-lib-header div, h1, #s-lib-public-header-desc, #s-lib-bc {
+		width: 970px;
+	}
+}
+@media(min-width: 1200px) {
+	.s-lib-header div, h1, #s-lib-public-header-desc, #s-lib-bc {
+		width: 1170px;
+	}
+}
+.breadcrumb li a {
+	color: white;
+}
+.breadcrumb li.active {
+	color: #fcd116
+}
+.s-lib-header {
+	background-color: #004f42;
+	color: white;
+	padding: 10px 20px;
+	width: 100%;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14);
+}
+.s-lg-link-list a {
+	font-size: 120%;
+	font-weight: bold;
+}
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+div.s-lib-box-content {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 15px 10px !important;
+	background-color: #fff;
+}
+@media(max-width: 768px) {
+	.container, .row, .s-lib-main, .breadcrumb {
+		padding: 0 10px;
+	}
+}
+
+</style> 
